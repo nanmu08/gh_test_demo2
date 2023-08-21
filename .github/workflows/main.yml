@@ -16,7 +16,7 @@ on:
 jobs:
   run_docker_image:
     runs-on: ubuntu-latest
-    container: faasr/github-actions-tidyverse
+    container: nanmu08/ghaction
     env:
       SECRET_PAYLOAD: ${{ secrets.SECRET_PAYLOAD }}
       INPUT_ID: ${{ github.event.inputs.ID }}
