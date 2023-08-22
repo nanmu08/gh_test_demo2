@@ -17,7 +17,7 @@
             ]
         },
         "F2": {
-            "FaaSServer": "github_a",
+            "FaaSServer": "github_b",
             "Actionname": "nanmu08/gh_test_demo2",
             "Arguments": {
                 "input1": "input1.csv",
@@ -52,6 +52,12 @@
             "WorkflowName": "main.yml",
             "Token": "PAYLOAD_GITHUB_TOKEN",
             "Ref": "main"
+        },
+        "github_b": {
+            "FaaSType": "GitHubActions",
+            "WorkflowName": "main.yml",
+            "Token": "PAYLOAD_GITHUB_TOKEN",
+            "Ref": "test1"
         },
         "lambda_a": {
             "FaaSType": "Lambda",
